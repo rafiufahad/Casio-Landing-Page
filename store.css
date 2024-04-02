@@ -1,0 +1,266 @@
+body {
+margin: 0;
+background-color: white;
+}
+* {box-sizing: border-box;}
+
+
+/* HEADER STYLING */
+.casio {
+display: flex;
+justify-content: space-between;
+background-color: white;
+border: 5px solid rgb(105, 105, 105);
+margin: 0;
+}
+
+.casioo {
+margin: 30px 0;
+font-size: 50px;
+padding: 0 100px;
+color: #00309C;
+font-weight: bolder;
+text-shadow: 2px 2px 15px #00309C;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.casiooo {
+float: right;
+margin: 0 50px 0 0px;
+justify-content: end;
+}
+
+.casioooo li a {
+background-color: #00309C;
+color: white;
+text-decoration: none;
+padding: 14px 16px;
+margin: 0;
+display: block;
+}
+
+.casioooo li a:hover {
+background-color: white;
+color: #00309C;
+text-decoration: none;
+border: 2px solid #00309C;
+box-shadow: 2px 2px 5px #00309C;
+}
+
+
+/* MAIN BODY STYLING */
+.newarrival {
+display: inline-block;
+height: auto;
+width: 100%;
+overflow: hidden;
+background-image: url(casiobg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.newarrival h1 {
+font-size: 60px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 100px 0 0 100px;
+width: 100%;
+}
+
+.newarrival p {
+padding: 0 100px;
+text-align: justify;
+word-spacing: 5px;
+width: 100%;
+}
+
+.newarrival .btn {
+margin: 30px 0 100px 100px;
+background-color: #00309C;
+border: 3px solid white;
+cursor: pointer;
+}
+
+.newarrival .btn:hover {
+background-color: white;
+color: #00309C;
+border: none !important;
+outline: none !important;
+cursor: pointer;
+}
+
+
+/* PARTNERS STYLING */
+
+.partner-container {
+    max-width: 100%;
+    height: auto;
+}
+.partner {
+display: flex;
+margin: 50px 0 50px 5px;
+justify-content: space-evenly;
+align-items: flex-start;
+
+}
+.partner img {
+height: 85px; width: 150px;
+padding: 0 10px;
+}
+
+
+
+/* PRODUCT STYLING */
+.featured {
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #00309C;
+margin: 70px;
+text-shadow: 3px 3px 5px #00309C;
+}
+
+.container {
+margin: 0 0 50px 0;
+}
+.container .clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
+.col {
+width: 8.3333%;
+}
+.exhibit {
+width: 170px; height: 300px;
+margin: 0 0 0 40px;
+}
+
+.product {
+margin: 40px 0;
+text-align: justify;
+padding: 20px;
+}
+
+.product:hover {
+border: 3px solid ;
+box-shadow: 2px 2px 15px black;
+}
+
+.col .btn {
+background-color: #00309C;
+border: 3px solid white;
+font-size: 15px;
+border-radius: 10px;
+}
+
+.col .btn:hover {
+background-color: white;
+color: #00309C;
+border: 3px solid #00309C;
+font-size: 15px;
+border-radius: 10px;
+}
+
+.gshock {
+background-size: contain;
+background-position: center;
+height: auto;
+width: 100%;
+}
+
+
+
+/* FOOTER STYLING */
+footer {
+background-color: #00309C;
+color: white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+width: 100%;
+padding: 20px;
+}
+
+footer h6 {
+color: white;
+text-decoration: none;
+font-weight: bolder;
+}
+
+
+
+/* WEBSITE RESPONSIVENESS FOR TWO (2) MOBILE SCREEN SIZE  */
+
+@media screen and (max-width: 768px) {  
+.casioo {
+font-size: 40px;
+margin: 30px 0 30px -80px;
+}
+
+.newarrival h1 {
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 100px 0 0 100px;
+width: 100%;
+text-align: left;
+}
+
+.newarrival p {
+padding: 0 100px;
+text-align: left;
+justify-content: center;
+word-spacing: 5px;
+width: 100%;
+}
+
+.newarrival .btn {
+margin: 50px 0 70px 100px;
+background-color: #00309C;
+border: 3px solid white;
+cursor: pointer;
+justify-content: center;
+}
+}
+
+
+@media screen and (max-width: 375px) {
+.casioo {
+font-size: 30px;
+margin: 30px 0 30px -100px;
+}
+.exhibit {
+width: 100px; height: 230px;
+margin: 0 0 0 40px;
+}
+div.row {
+display: block;
+}
+.newarrival h1 {
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 100px 50px 0 30px;
+text-align: center;
+}
+
+.newarrival p {
+    padding: 0 50px;
+    /* margin: 10px 0 0 50px; */
+    text-align: left;
+    word-spacing: 5px;
+    }
+
+.newarrival .btn {
+    margin: 20px 0 60px 50px;
+    background-color: #00309C;
+    border: 3px solid white;
+    cursor: pointer;
+    justify-content: center;
+    }
+    .gshock {
+        overflow: hidden;
+
+    }
+}
